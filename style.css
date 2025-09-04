@@ -28,19 +28,21 @@ nav a:hover {
 
 /* Hero */
 .hero {
+  position: relative;
   background: url("https://images.unsplash.com/photo-1588776814546-08b90e7b5b9a?auto=format&fit=crop&w=1350&q=80") no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 120px 20px;
   margin-top: 50px;
 }
-.hero h1 { font-size: 2.8em; margin: 0; }
-.hero p { font-size: 1.2em; margin: 10px 0 20px; }
-.hero button {
-  background: #0077b6; color: white;
-  border: none; padding: 12px 20px;
-  font-size: 1em; border-radius: 5px;
-  cursor: pointer;
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero h1, .hero p, .hero button {
+  position: relative; /* para ficar acima do overlay */
 }
 .hero button:hover { background: #005f87; }
 
