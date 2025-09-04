@@ -38,6 +38,20 @@ nav .menu {
   gap: 30px;
 }
 
+nav .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav .menu a:hover {
+  color: #ffd166; /* amarelo clarinho no hover */
+  text-decoration: underline;
+}
+
+
 
 /* Hero */
 .hero {
