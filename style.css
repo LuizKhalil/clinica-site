@@ -13,31 +13,31 @@ nav {
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
-  align-items: center;   /* alinha tudo no centro vertical */
-  justify-content: center; /* centraliza o conteúdo */
+  align-items: center;       /* alinha no centro vertical */
+  justify-content: space-between; /* separa logo à esquerda e menu à direita */
   z-index: 1000;
 }
 
 nav .logo {
-  background: white;
+  background: white;       /* fundo branco visível */
   padding: 6px 12px;
   border-radius: 6px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav .logo img {
   height: 60px;
   max-width: 150px;
-  filter: none; /* remove inversão de cor */
+  filter: none; /* garante que não tem inversão */
 }
-
 
 nav .menu {
   display: flex;
   gap: 30px;
 }
+
 
 /* Hero */
 .hero {
