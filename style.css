@@ -39,11 +39,12 @@ nav a:hover {
 }
 
 .hero-content {
-  background: rgba(0, 119, 182, 0.8); /* azul semi-transparente */
-  color: white;
+  background-color: rgba(0, 119, 182, 0.85); /* azul translúcido */
+  color: white !important; /* força o contraste */
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   max-width: 600px;
+  z-index: 2; /* garante que fica acima da imagem */
 }
 
 .hero-content h1 {
