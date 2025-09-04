@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vida & Saúde</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #0077b6; color: white; padding: 20px; text-align: center; }
+    section { padding: 20px; max-width: 1000px; margin: auto; }
+    h1, h2 { color: #0077b6; }
+    .services, .team { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; width: 250px; }
+    .card img { max-width: 100%; border-radius: 8px; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+    input, select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #0077b6; color: white; border: none; padding: 10px; cursor: pointer; }
+    button:hover { background: #005f87; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Clínica Vida & Saúde</h1>
+    <p>Cuidando de você em todas as fases da vida</p>
+  </header>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Atendimento Médico">
+        <h3>Atendimento Médico</h3>
+        <p>Consultas com especialistas em diversas áreas da saúde.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Exames">
+        <h3>Exames Laboratoriais</h3>
+        <p>Resultados rápidos e precisos em análises clínicas e de imagem.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Nutrição">
+        <h3>Aconselhamento Nutricional</h3>
+        <p>Planos personalizados para sua saúde e bem-estar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossa Equipe</h2>
+    <div class="team">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Dr. João">
+        <h3>Dr. João Silva</h3>
+        <p>Médico Clínico Geral</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Dra. Maria">
+        <h3>Dra. Maria Santos</h3>
+        <p>Nutricionista</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Dr. Pedro">
+        <h3>Dr. Pedro Almeida</h3>
+        <p>Radiologista</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Agende uma Visita</h2>
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="E-mail" required>
+      <input type="text" placeholder="Cidade" required>
+      <select required>
+        <option value="">Selecione o Estado</option>
+        <option>DF</option>
+        <option>SP</option>
+        <option>RJ</option>
+        <option>MG</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
