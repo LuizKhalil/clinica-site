@@ -19,13 +19,19 @@ nav {
 }
 
 nav .logo {
-  margin-right: auto; /* empurra a logo para a esquerda */
+  background: white;       /* fundo branco atrás da logo */
+  padding: 5px 10px;       /* espaço interno */
+  border-radius: 6px;      /* cantos arredondados */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav .logo img {
-  height: 70px;
-  max-width: 160px;
+  height: 60px;  /* tamanho da logo */
+  max-width: 150px;
 }
+
 
 nav .menu {
   display: flex;
