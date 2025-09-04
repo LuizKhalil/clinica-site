@@ -50,5 +50,4 @@ Salve e pegue o link gerado
 
 🎥 Apresentação
 
-🔗 Link do vídeo de apresentação: [COLOQUE AQUI]
-🔗 Link do repositório GitHub: [COLOQUE AQUI]
+🔗 Link do vídeo de apresentação: https://luizkhalil.github.io/clinica-site/
