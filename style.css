@@ -13,33 +13,24 @@ nav {
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
-  justify-content: space-between; /* separa logo e menu */
-  align-items: center;            /* alinha no centro vertical */
+  align-items: center;   /* alinha tudo no centro vertical */
+  justify-content: center; /* centraliza o conteúdo */
   z-index: 1000;
 }
 
+nav .logo {
+  margin-right: auto; /* empurra a logo para a esquerda */
+}
+
 nav .logo img {
-  height: 70px;     /* controla tamanho da logo */
-  max-width: 160px; /* evita esticar demais */
+  height: 70px;
+  max-width: 160px;
 }
 
 nav .menu {
   display: flex;
-  gap: 30px; /* espaço entre os links */
+  gap: 30px;
 }
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1em;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-
 
 /* Hero */
 .hero {
