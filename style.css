@@ -31,7 +31,7 @@ nav .logo {
 nav .logo img {
   height: 60px;
   max-width: 150px;
-  filter: none; /* garante que não inverte cor */
+  filter: none;
 }
 
 /* Menu */
@@ -40,22 +40,19 @@ nav .menu {
   gap: 30px;
 }
 
-/* Links do menu (todos os estados) */
-nav .menu a,
-nav .menu a:link,
-nav .menu a:visited,
-nav .menu a:active {
-  color: #fff !important;
-  text-decoration: none !important;
+/* Links do menu */
+nav .menu a {
+  all: unset;               /* zera qualquer estilo padrão do navegador */
+  color: #fff;              /* branco fixo */
+  cursor: pointer;          /* mãozinha */
   font-weight: 600;
   font-size: 1.1em;
   transition: color 0.3s ease;
 }
 
-/* Hover */
 nav .menu a:hover {
-  color: #ffd166 !important; /* amarelo claro */
-  text-decoration: underline !important;
+  color: #ffd166;           /* amarelo claro no hover */
+  text-decoration: underline;
 }
 
 
