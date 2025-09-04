@@ -35,15 +35,18 @@ nav a:hover {
   padding: 120px 20px;
   margin-top: 50px;
 }
+
 .hero::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.55); /* escurece a imagem */
 }
+
 .hero h1, .hero p, .hero button {
-  position: relative; /* para ficar acima do overlay */
+  position: relative; /* fica por cima do overlay */
 }
+
 .hero button:hover { background: #005f87; }
 
 /* Seções */
